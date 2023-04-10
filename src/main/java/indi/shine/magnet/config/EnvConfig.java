@@ -17,6 +17,6 @@ public class EnvConfig {
 
     static {
         HttpUtil.setReadTimeout(10000);
-        HttpUtil.setRetryNum(Integer.MAX_VALUE);
+        HttpUtil.setRetryNum(3);
     }
 }
